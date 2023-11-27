@@ -1,0 +1,47 @@
+JavaScript
+    Linguagem de programação de alto nível(prox. comunicação humana), que integra o desenvolvimento de apps e páginas web.
+    É uma das linguagens de programação mais usadas no mundo do desenvolvimento.
+
+
+DOM - Documemnt Object Model
+    Interface de programação para documentos html e xml. Representa um um documento que permite a alteração da estrutura, estilo e conteúdo.
+    Representa o documento com nós e objetos, facilitando a manipulação dos elementos através de uma linguagem de programação. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let, var e const - 
+    diferenças
+        let - 
+            declara uma variável, não tipada. Funciona de acordo com o escopo
+
+        const - 
+            declara uma variavel, não tipada, CONSTANTE (nunca vai mudar).
+
+        var - 
+            declara uma variavel, não tipada. Mas é uma VÁRzea. Funciona de acordo com o escopo. 
+            Consigo declarar ("var") mais de uma vez determinada variavel, e consigo exibir a variavel, mesmo definindo-a depois de onde exibi ela. (HOISING)
+
+métodos de entrada - 
+    prompt
+    form
+    
+métodos de saída - 
+    documemnt.write
+    alert
+    console.log
+
+function - 
+    reativa, só irá funcionar quando eu fizer algo, determinar que ela faça algo
