@@ -2,10 +2,27 @@ JavaScript
     Linguagem de programação de alto nível(prox. comunicação humana), que integra o desenvolvimento de apps e páginas web.
     É uma das linguagens de programação mais usadas no mundo do desenvolvimento.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 DOM - Documemnt Object Model
     Interface de programação para documentos html e xml. Representa um um documento que permite a alteração da estrutura, estilo e conteúdo.
     Representa o documento com nós e objetos, facilitando a manipulação dos elementos através de uma linguagem de programação. 
+
+document.querySelector('#numero1 ou .numero1'); -  seleciona toda a caixa - classe/id.
+document.querySelector('#numero1 ou .numero1').value; - seleciona o valor da caixa - classe/id.
+
+document.getElementById('numero1'); - selecionando o valor da caixa de texto. - via getElementById
+
+document.getElementByTagName('input')[0].value; - selecionar o valor da caixa de texto - via getElementByTagName - *RETORNA UM ARRAY DE TAGS
+
+document.getElementByClassName('form-input')[0].value - seleciona o valor da caixa de texto - via getElementByClassName - *RETORNA UM ARRAY DE ELEMENTOS DA CLASSE REFERIDA
+
+document.getElementsByTagName('label')[0].innerHTML - seleciona o valor de dentro da caixa de uma tag 
+
+document.getElementsByTagName('label')[0].innerHTML = 'text'; - alterando o valor dentro de um caixa selecionada
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
